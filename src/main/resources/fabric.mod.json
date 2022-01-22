@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "reclient",
+  "version": "${version}",
+  "name": "Reclient",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/reclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "weedro.reciper.reclient.Reclient"
+    ]
+  },
+  "mixins": [
+    "reclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
