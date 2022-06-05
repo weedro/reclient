@@ -3,3 +3,5 @@ gradle/
 run/
 gradlew.bat
 reclient.iml
+.idea/
+.gradle/
